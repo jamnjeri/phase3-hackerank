@@ -4,7 +4,7 @@
 
 ## **Question Two**
 
-**BDD** - identify the object type
+**BDD** - Identify the object type
 
 **PSEUDO CODE:**
 
@@ -15,7 +15,7 @@
    - If TestCase  => "It's a TestCase!"
    - If Contest  => "It's a Contest!"
    - If anything else  => "It's an unknown model
-   
+
  *END*
 
 
@@ -26,6 +26,19 @@
  3. 10 => "It's an unknown model"
 
 ## **Question Three**
+
+**BDD** - Iterate through the array and return an array containing each value
+
+**PSEUDO CODE:**
+
+ *START*
+ 1. Iterate through an array:  (using collect because it returns an array)
+
+ *END*
+
+
+### I/O (Test Cases)
+skip_animals(['leopard', 'bear', 'fox', 'wolf'], 2)   =>  ["2:fox", "3:wolf"]
 ## **Question Four**
 ## **Question Five**
 ## **Question Six**
