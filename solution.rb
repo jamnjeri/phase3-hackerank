@@ -78,8 +78,14 @@ def rot13(messages)
   end
 end
 
-
 # QUESTION FIVE
+def sum_terms(n)
+  # your code here
+    num = (1..n).reduce(0) {|sum, i| sum + i**2 + 1}
+    num.to_i
+end
+
+# QUESTION SIX
 def func_any(hash)
   # Check and return true if any key object within the hash is of the type Integer
   # If not found, return false.
@@ -108,16 +114,17 @@ def func_find(hash)
   end
 end
 
-# QUESTION SIX
+# QUESTION SEVEN
 def group_by_marks(marks, pass_marks)
   marks.group_by { |name, marks_obtained| marks_obtained >= pass_marks ? 'Passed' : 'Failed' }
 end
 
-# QUESTION SEVEN
+# QUESTION EIGHT
 def take(arr, n=1)
   arr[n..-1]
 end
-# QUESTION EIGHT
+
+# QUESTION NINE
 def convert_temp(temperature, input_scale:, output_scale: 'celsius')
   case input_scale
   when 'celsius'
